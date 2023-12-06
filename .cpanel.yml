@@ -1,0 +1,9 @@
+---
+deploy:
+  tasks:
+    - export DEPLOYPATH=/home/enabler1/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+  metadata:
+    version: 2
+---
+
